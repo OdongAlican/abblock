@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 def bubble_sort array
   array.each do
     array.each_with_index do |item, index|
@@ -6,3 +7,5 @@ def bubble_sort array
     end
   end
 end
+
+bubble_sort [2,0,3,9,5]
